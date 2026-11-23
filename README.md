@@ -18,3 +18,12 @@ flowchart LR
     F -->|Pass| G1[💬 Slack Webhook<br/>채널 브리핑 카드 발송]
     F -->|Pass| G2[✈️ Telegram Bot<br/>개인 알림 메시지 발송]
     F -->|Skip| H[로그 기록 및 종료]
+```
+
+## 📸 실행 화면 및 알림 결과 (Screenshots)
+
+### 1. n8n 워크플로우 및 24/7 무인 스케줄 실행 로그 (Executions)
+![n8n Workflow & Executions](./executions.png)
+
+### 2. Slack / Telegram 실시간 채용 브리핑 메시지
+![Slack Briefing Result](./slack.png)
